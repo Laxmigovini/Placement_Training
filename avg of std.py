@@ -1,0 +1,8 @@
+StudentName=chr('input("enter name:")')
+HallticketN=chr('input("enter h.no:")')
+StudentCourse=chr('input("enter course:")')
+a=int(input("enter sub1 marks:"))
+b=int(input("enter sub2 marks:"))
+c=int(input("enter sub3 marks:"))
+print("sum is:",(a+b+c))
+print("avg is:",(a+b+c)/3)

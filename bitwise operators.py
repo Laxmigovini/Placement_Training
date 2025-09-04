@@ -1,0 +1,8 @@
+x=int(input("enter x value:"))
+y=int(input("enter y value:"))
+print("binary and",x&y)
+print("binary or",x|y)
+print("bonary xor",x^y)
+print("negation",~x)
+print("left shift",x<<2)
+print("right shift",x>>2)

@@ -1,9 +1,9 @@
-'''
+
 print(5&2)
 print(14<<3)
 print(5<<1)
 print(178<<13)
-
+'''
 n = int(input())
 if n & 1 ==0:
     print("even")
