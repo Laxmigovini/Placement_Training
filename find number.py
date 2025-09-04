@@ -1,3 +1,4 @@
+'''
 listt = [2,3,4,3,2,5,5]
 #every number has freequency of 2 except 1 number. print that number
 list1 = dict()
@@ -19,23 +20,21 @@ for num in listt:
 print(unique)  # Output: 4
 
 
-
 listt = [2,3,4,3,2,5,5]
 s=0
 for i in listt:
     s=s^i
 print(s)
-
+'''
 
 listt = [2,3,4,3,2,5,5]
-
 for i in range(len(listt)-1):
     flag = 0
     for j in range(len(listt)):
-        if listt[i] == listt[j] and i!=j:
+        
+        if listt[i] == listt[j] and i != j:
             flag = 1
             break
     if flag == 0:
         print(listt[i])
-            
         

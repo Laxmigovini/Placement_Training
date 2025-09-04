@@ -1,0 +1,5 @@
+x=int(input("enter x value:"))
+y=int(input("enter y value:"))
+print("logical and",((x>y)and (x<y)))
+print("logical or",((x>y)or (x<y)))
+print("logical not",(not(x>y)and(x<y)))
