@@ -143,47 +143,37 @@ def qwer(n,i,j, c = 0):
     return qwer(n-i,i,j,c+1) or qwer(n-j,i,j,c+1)
 
 print(qwer(9,3,5))
+
+
+n = int(input())
+rev = 0
+while n!=0:
+    digit = n% 10
+    rev = rev*10 +digit
+    n = n//10
+print(rev)
 '''
 
 
-def bfs(n,i,j):
-    visited = set()
-    q = []
-    q.append(n)
-    visited.add(n)
+def find(n):
+    i = 3
+    j = 5
+    temp = 1
     while 1:
-        q.pop[0]
-        
+        n -= i
+        if n == 1:
+            temp = 1
+            return True
+        elif n < 1:
+            return False
+    return False
+n = 22
+print(find(n))
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-
-
-
-
-
-
+   
+   
 
 
 
